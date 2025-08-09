@@ -26,7 +26,7 @@ uv run main_umda_permus.py # see --help for CLI options
 uv run main_umda_inv.py  # for UMDA over inversion vectors
 ```
 
-Note that the `umda.py` (contains the UMDA algorithm implementation) and `transformations.py` (implements all permutation transformations and their inverses) are standalone modules that can be used for other projects.
+Note that the `umda.py` (contains the UMDA algorithm implementation) and `transformations.py` (implements all permutation transformations and their inverses) are standalone modules that can be used for other projects. For the instances see [release](https://github.com/mikelma/inversion-vectors/releases/tag/v0.1).
 
 Finally, the main experiment scripts require the `pypermu` library for loading instances and evaluation. A binary of the library is included in the repo (should work on x86_64 Linux machines) together with its source code (in Rust).  
 
